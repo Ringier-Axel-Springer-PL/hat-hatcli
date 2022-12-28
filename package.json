@@ -11,7 +11,7 @@
     "url": "ssh://git@stash.grupa.onet:7999/hat/hat-cli.git"
   },
   "bin": {
-    "setup": "bin/index.js"
+    "start": "bin/index.js"
   },
   "author": "RAS Tech",
   "license": "MIT"
