@@ -1,6 +1,6 @@
 {
   "name": "hat-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Head App Template - Command Line Interface",
   "main": "index.js",
   "scripts": {
