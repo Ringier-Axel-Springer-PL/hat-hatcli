@@ -1,6 +1,6 @@
 {
   "name": "hat-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Head App Template - Command Line Interface",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,13 @@
     "url": "ssh://git@stash.grupa.onet:7999/hat/hat-cli.git"
   },
   "bin": {
-    "start": "bin/index.js"
+    "hat-cli": "./bin/index.js"
   },
   "author": "RAS Tech",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "args": "^5.0.3",
+    "prompts": "^2.4.2",
+    "upath": "^2.0.1"
+  }
 }
