@@ -1,6 +1,6 @@
 {
   "name": "ringhat",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Head App Template - Command Line Interface",
   "main": "index.js",
   "scripts": {
