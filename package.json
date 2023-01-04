@@ -1,5 +1,5 @@
 {
-  "name": "hat-cli",
+  "name": "ringhat",
   "version": "0.0.4",
   "description": "Head App Template - Command Line Interface",
   "main": "index.js",
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@stash.grupa.onet:7999/hat/hat-cli.git"
+    "url": "ssh://git@stash.grupa.onet:7999/hat/ringhat.git"
   },
   "bin": {
-    "hat-cli": "./bin/index.js"
+    "ringhat": "./bin/index.js"
   },
   "author": "RAS Tech",
   "license": "MIT",

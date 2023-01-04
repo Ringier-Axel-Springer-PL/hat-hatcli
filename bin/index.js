@@ -6,12 +6,8 @@ process.on('unhandledRejection', err => {
 });
 
 const args = process.argv.slice(2);
-
-const scriptIndex = args.findIndex(
-    x => x === 'build' || x === 'eject' || x === 'start' || x === 'test'
-);
-const script = scriptIndex === -1 ? args[0] : args[scriptIndex];
-const nodeArgs = scriptIndex > 0 ? args.slice(0, scriptIndex) : [];
+const script = args[0];
+const nodeArgs = process.argv.slice(2);
 
 async function handleScript(script) {
     const scriptPath = './../lib/scripts/';
@@ -27,7 +23,7 @@ async function handleScript(script) {
     }
 }
 
-if (['setup', 'start'].includes(script)) {
+if (['setup', 'start', 'create'].includes(script)) {
     handleScript(script);
 } else {
     console.log('Unknown script "' + script + '".');

@@ -5,7 +5,7 @@ This is a CLI for Head App Template. It is not required, but it facilitates work
 ## Installation
 
 ```bash
-npm i git+http://stash.grupa.onet/scm/hat/hat-cli.git --global
+npm i git+http://stash.grupa.onet/scm/hat/ringhat.git --global
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm i git+http://stash.grupa.onet/scm/hat/hat-cli.git --global
 From project folder:
 
 ```bash 
-hat-cli setup
+ringhat setup
 ```
 then follow the configurator to create/edit profiles for project.
 
@@ -24,7 +24,7 @@ then follow the configurator to create/edit profiles for project.
 From project folder:
 
 ```bash 
-hat-cli start --params=\"ts-node --project tsconfig.server.json server.ts\"
+ringhat start --params=\"ts-node --project tsconfig.server.json server.ts\"
 ```
 
 To run command `ts-node...` with injected environment variables.
