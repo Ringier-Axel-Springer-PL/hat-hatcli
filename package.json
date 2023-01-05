@@ -13,6 +13,9 @@
   "bin": {
     "ringhat": "./bin/index.js"
   },
+  "engines" : {
+    "node" : ">=16.0.0"
+  },
   "author": "RAS Tech",
   "license": "MIT",
   "dependencies": {

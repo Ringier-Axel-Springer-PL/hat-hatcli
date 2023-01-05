@@ -14,7 +14,7 @@ async function handleScript(script) {
 
     try {
         const ScriptClass = require(`${scriptPath}${script}`);
-        const scriptInstance = new ScriptClass();
+        const scriptInstance = new ScriptClass(script);
         await scriptInstance.execute();
 
     } catch (error) {
