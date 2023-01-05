@@ -10,6 +10,18 @@ npm i git+http://stash.grupa.onet/scm/hat/ringhat.git --global
 
 ## Usage
 
+### create
+
+This command creates folder with provided name with empty hat-boilerplate inside.
+
+```bash 
+ringhat create {project_name}
+ringhat create newProjectFolder
+```
+
+Make sure that such a folder `newProjectFolder` does not exist beforehand.
+After this you should run `npm i` and `npm run dev` from project folder.
+
 ### setup
 
 From project folder:
@@ -19,12 +31,3 @@ ringhat setup
 ```
 then follow the configurator to create/edit profiles for project.
 
-### start
-
-From project folder:
-
-```bash 
-ringhat start --params=\"ts-node --project tsconfig.server.json server.ts\"
-```
-
-To run command `ts-node...` with injected environment variables.
