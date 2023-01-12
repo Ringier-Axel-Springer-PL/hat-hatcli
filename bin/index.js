@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 
 'use strict';
+const Utils = require("../lib/Utils");
 process.on('unhandledRejection', err => {
     throw err;
 });
@@ -13,6 +14,7 @@ async function handleScript(script) {
     const scriptPath = './../lib/scripts/';
 
     try {
+        await Utils.checkVersion();
         const ScriptClass = require(`${scriptPath}${script}`);
         const scriptInstance = new ScriptClass(script);
         await scriptInstance.execute();
