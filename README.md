@@ -5,7 +5,7 @@ This is a CLI for Head App Template. It is not required, but it facilitates work
 ## Installation
 
 ```bash
-npm i git+http://stash.grupa.onet/scm/hat/ringhat.git --global
+npm i git+https://github.com/ringpublishing/hat-cli.git --global
 ```
 
 ## Usage

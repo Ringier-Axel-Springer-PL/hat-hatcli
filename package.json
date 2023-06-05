@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@stash.grupa.onet:7999/hat/ringhat.git"
+    "url": "https://github.com/ringpublishing/hat-cli.git"
   },
   "bin": {
     "ringhat": "./bin/index.js"
