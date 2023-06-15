@@ -11,7 +11,7 @@
     "url": "https://github.com/ringpublishing/hat-cli.git"
   },
   "bin": {
-    "ringhat": "./bin/index.js"
+    "hat-cli": "./bin/index.js"
   },
   "engines": {
     "node": ">=16.0.0"
