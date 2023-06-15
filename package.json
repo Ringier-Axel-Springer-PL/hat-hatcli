@@ -1,5 +1,5 @@
 {
-  "name": "ringhat",
+  "name": "hat-cli",
   "version": "0.0.14",
   "description": "Head App Template - Command Line Interface",
   "main": "index.js",
