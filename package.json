@@ -11,7 +11,7 @@
     "url": "ssh://git@stash.grupa.onet:7999/hat/ringhat.git"
   },
   "bin": {
-    "ringhat": "./bin/index.js"
+    "hatcli": "./bin/index.js"
   },
   "engines": {
     "node": ">=16.0.0"
