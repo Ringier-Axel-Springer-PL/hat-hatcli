@@ -5,7 +5,7 @@ This is a CLI for Head App Template. It is not required, but it facilitates work
 ## Installation
 
 ```bash
-npm i git+http://stash.grupa.onet/scm/hat/ringhat.git --global
+npm i git+http://stash.grupa.onet/scm/hat/hatcli.git --global
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm i git+http://stash.grupa.onet/scm/hat/ringhat.git --global
 This command creates folder with provided name with empty hat-boilerplate inside.
 
 ```bash 
-ringhat create {project_name}
-ringhat create newProjectFolder
+hatcli create {project_name}
+hatcli create newProjectFolder
 ```
 
 Make sure that such a folder `newProjectFolder` does not exist beforehand.
@@ -27,7 +27,7 @@ After this you should run `npm i` and `npm run dev` from project folder.
 From project folder:
 
 ```bash 
-ringhat setup
+hatcli setup
 ```
 then follow the configurator to create/edit profiles for project.
 
